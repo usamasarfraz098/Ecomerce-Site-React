@@ -1,0 +1,89 @@
+/* front page style */
+.front-page-color {
+  background-color: #f2f1f0;
+  min-height: 100vh;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: rgb(224, 126, 126) !important;
+}
+.card{
+  text-align: center !important;
+}
+.card1 {
+ 
+  background: url(/assets/Images/bg.webp) center / cover !important;
+  background-attachment: fixed !important;
+  height: 500px !important;
+  
+}
+.card-body{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center ;
+  height: 50% !important;
+  justify-content: center ;
+  
+}
+.text-gray{
+  color: rgb(228, 220, 220) !important;
+}
+.bg-gray{
+  background-color:#f2f1f0 !important; ;
+}
+.bold-lg{
+  font-weight: 900;
+}
+.visibility{
+  visibility: hidden;
+}
+.card:hover .visibility{
+  visibility: visible;
+}
+.copyfolder{
+  width: 100%;
+}
+.copy{
+  text-align: center;
+}
+
+/* about page  */
+.about{
+  border: none !important;
+}
+.about-height{
+  min-height: 300px !important;
+}
+
+/* contact  */
+.contact-card{
+  height: 700px !important;
+}
+input,textarea{
+  border: none !important;
+  border-bottom: 1px solid !important;
+  padding-left: 10px !important;
+
+}
+input:active,textarea:active{
+  outline: none !important;
+}
+.nav-link{
+  cursor: pointer  !important;
+}
+.cart-product-img{
+  width: 80px;
+}
+.icon{
+cursor: pointer;
+}
+
+/* products  */
+.object{
+  height: 200px !important;
+  object-fit: contain !important;
+}
